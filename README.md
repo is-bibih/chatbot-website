@@ -91,7 +91,7 @@ const app = initializeApp({
   appId: "appId"
 });
 ```
-Hay que reemplazar cada dato con los de tu proyecto. Para encontrarlos, ve a console.firebase.google.com (e inicia sesión de ser necesario).
+Hay que reemplazar cada dato con los de tu proyecto. Para encontrarlos, ve a https://console.firebase.google.com (e inicia sesión de ser necesario).
 
 foto
 
