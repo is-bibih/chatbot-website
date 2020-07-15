@@ -1,13 +1,13 @@
 import { initializeApp } from 'firebase';
 
 const app = initializeApp({
-  apiKey: "AIzaSyBChigHV8ZdXiE5RNz4BwpLPsc4UD3Mmyg",
-  authDomain: "covid-19-bjmcqv.firebaseapp.com",
-  databaseURL: "https://covid-19-bjmcqv.firebaseio.com",
-  projectId: "covid-19-bjmcqv",
-  storageBucket: "covid-19-bjmcqv.appspot.com",
-  messagingSenderId: "859229292547",
-  appId: "1:859229292547:web:09c455911406d0c5f9a636"
+  apiKey: "apiKey",
+  authDomain: "authDomain",
+  databaseURL: "https://chatbot.firebaseio.com",
+  projectId: "chatbot",
+  storageBucket: "chatbot.appspot.com",
+  messagingSenderId: "123456789012",
+  appId: "appId"
 });
 
 export const db = app.database();
