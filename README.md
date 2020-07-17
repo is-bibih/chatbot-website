@@ -17,7 +17,7 @@ Esto permite descargar las dependencias necesarias para el proyecto.
 
 Para instalar `node.js`, ve a https://nodejs.org/en/download/ y descarga el instalador apropiado para tu sistema operativo. Se recomienda usar la versión LTS (long-term support), que es la que está seleccionada por defecto.
 
-foto
+![alt text][nodejs]
 
 Una vez que lo hayas descargado, ejecuta el archivo para correr el instalador.
 
@@ -55,7 +55,8 @@ git clone https://github.com/is-bibih/chatbot-website.git
 
 Si no tienes `git`, puedes descargar un zip del repo:
 
-foto
+![alt text][githubDownload]
+![alt text][githubZip]
 
 Extráelo en el directorio de tu preferencia.
 
@@ -93,19 +94,19 @@ const app = initializeApp({
 ```
 Hay que reemplazar cada dato con los de tu proyecto. Para encontrarlos, ve a https://console.firebase.google.com (e inicia sesión de ser necesario).
 
-foto
+![alt text][firebaseConsole]
 
 Selecciona el proyecto cuya base de datos quieres asociar con la página.
 
-foto
+![alt text][firebaseProject]
 
 En la esquina superior izquierda, haz click en en símbolo del engrane y selecciona 'Project Settings'.
 
-foto
+![alt text][firebaseSettings]
 
 Ve hasta el final de la página, donde podrás ver una sección similar:
 
-foto
+![alt text][firebaseAppInfo]
 
 Cópiala y pégala para reemplazar la sección en `firebase.js`. Sobreescribe el archivo y ciérralo.
 
@@ -141,3 +142,11 @@ DONE  Compiled successfully in 7508ms                4:18:55 PM
 ```
 
 En el navegador de tu preferencia, abre cualquiera de las dos direcciones que aparecen.
+
+[nodejs]: https://github.com/is-bibih/chatbot-website/blob/master/images/g1-nodejs.png "Descarga de node.js"
+[githubDownload]: https://github.com/is-bibih/chatbot-website/blob/master/images/g2-github-download.png "Descarga del repo desde github"
+[githubZip]: https://github.com/is-bibih/chatbot-website/blob/master/images/g3-github-zip.png "Descarga del repo como .zip"
+[firebaseConsole]: https://github.com/is-bibih/chatbot-website/blob/master/images/g4-firebase-console.png "Consola de Firebase"
+[firebaseProject]: https://github.com/is-bibih/chatbot-website/blob/master/images/g5-firebase-project.png "Selección de proyecto de Firebase"
+[firebaseSettings]: https://github.com/is-bibih/chatbot-website/blob/master/images/g6-firebase-settings.png "Configuración del proyecto"
+[firebaseAppInfo]: https://github.com/is-bibih/chatbot-website/blob/master/images/g7-firebase-app-info.png "Información de la aplicación de Firebase"
